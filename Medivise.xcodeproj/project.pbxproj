@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE05C7BF2BD2F68600699679 /* ThreeDotsLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05C7BE2BD2F68600699679 /* ThreeDotsLoadingView.swift */; };
+		CE05C7C22BD3054100699679 /* DDICheckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05C7C12BD3054100699679 /* DDICheckerView.swift */; };
+		CE05C7C42BD31EF600699679 /* DDICheckerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05C7C32BD31EF600699679 /* DDICheckerViewModel.swift */; };
+		CE0CE9922BDEA23D00DCDAEC /* DDICheckerMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0CE9912BDEA23D00DCDAEC /* DDICheckerMenuView.swift */; };
+		CE0CE9952BDEB13B00DCDAEC /* WavyLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0CE9942BDEB13B00DCDAEC /* WavyLineView.swift */; };
+		CE0CE9972BDEB5C000DCDAEC /* DrugFoodInteractionCheckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0CE9962BDEB5C000DCDAEC /* DrugFoodInteractionCheckerView.swift */; };
+		CE0CE9992BDEB84500DCDAEC /* InteractionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0CE9982BDEB84500DCDAEC /* InteractionDetailView.swift */; };
+		CE54ED3F2BB61056002A9786 /* MedicationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54ED3E2BB61056002A9786 /* MedicationViewModel.swift */; };
+		CE56A0222BC209E50052DB82 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56A0212BC209E50052DB82 /* WelcomeScreenView.swift */; };
+		CE6D639E2BDE876200338246 /* DDICheckerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D639D2BDE876200338246 /* DDICheckerService.swift */; };
+		CE6D63A02BDE97D800338246 /* Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D639F2BDE97D800338246 /* Interaction.swift */; };
+		CE6D63A22BDE9B5000338246 /* DDICheckerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D63A12BDE9B5000338246 /* DDICheckerRepository.swift */; };
+		CE70381A2BD14E9800437D40 /* MedicationDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7038192BD14E9800437D40 /* MedicationDashboardView.swift */; };
+		CE70381C2BD171DB00437D40 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70381B2BD171DB00437D40 /* SwiftUIView.swift */; };
+		CE70381F2BD178AC00437D40 /* HealthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70381E2BD178AC00437D40 /* HealthCardView.swift */; };
+		CE9F57832BB353BC005AB2B0 /* MediviseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57822BB353BC005AB2B0 /* MediviseApp.swift */; };
+		CE9F57852BB353BC005AB2B0 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57842BB353BC005AB2B0 /* HomePage.swift */; };
+		CE9F57872BB353BD005AB2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9F57862BB353BD005AB2B0 /* Assets.xcassets */; };
+		CE9F578A2BB353BD005AB2B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9F57892BB353BD005AB2B0 /* Preview Assets.xcassets */; };
+		CE9F57912BB35CE0005AB2B0 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57902BB35CE0005AB2B0 /* DayView.swift */; };
+		CE9F57932BB362EC005AB2B0 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57922BB362EC005AB2B0 /* CalendarView.swift */; };
+		CE9F57962BB37366005AB2B0 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57952BB37366005AB2B0 /* TextFieldModifier.swift */; };
+		CE9F579B2BB42A9A005AB2B0 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = CE9F579A2BB42A9A005AB2B0 /* GoogleGenerativeAI */; };
+		CE9F579D2BB42ACB005AB2B0 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9F579C2BB42ACB005AB2B0 /* GenerativeAI-Info.plist */; };
+		CE9F579F2BB42B12005AB2B0 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F579E2BB42B12005AB2B0 /* APIKey.swift */; };
+		CE9F57A22BB46511005AB2B0 /* GeminiExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57A12BB46511005AB2B0 /* GeminiExample.swift */; };
+		CE9F57A62BB4670D005AB2B0 /* WideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57A52BB4670D005AB2B0 /* WideButton.swift */; };
+		CE9F57A92BB46B62005AB2B0 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57A82BB46B62005AB2B0 /* Medication.swift */; };
+		CE9F57AC2BB46D6F005AB2B0 /* MedicationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57AB2BB46D6F005AB2B0 /* MedicationFormView.swift */; };
+		CE9F57B02BB4A4E2005AB2B0 /* ImageUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57AF2BB4A4E2005AB2B0 /* ImageUploadView.swift */; };
+		CE9F57B22BB4A4FF005AB2B0 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F57B12BB4A4FF005AB2B0 /* ImagePickerView.swift */; };
+		CEAA40302BC6C664003810FF /* MedicationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA402F2BC6C664003810FF /* MedicationListView.swift */; };
+		CEAA40322BC7E7C6003810FF /* MedicationFileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA40312BC7E7C6003810FF /* MedicationFileManagerService.swift */; };
+		CEAA40342BC7E8CE003810FF /* MedicationFileManagerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA40332BC7E8CE003810FF /* MedicationFileManagerRepository.swift */; };
+		CEAA40372BC81AE0003810FF /* MedicationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA40362BC81AE0003810FF /* MedicationRowView.swift */; };
+		CEAA40392BC8871D003810FF /* UserFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA40382BC8871D003810FF /* UserFormView.swift */; };
+		CEEEC68F2BDFEF30004E6B30 /* WarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC68E2BDFEF30004E6B30 /* WarningView.swift */; };
+		CEEEC6922BDFF709004E6B30 /* MedicationPDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC6912BDFF709004E6B30 /* MedicationPDFView.swift */; };
+		CEEEC6942BDFF8F7004E6B30 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC6932BDFF8F7004E6B30 /* PDFViewer.swift */; };
+		CEEEC6982BDFFCAB004E6B30 /* PDFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC6972BDFFCAB004E6B30 /* PDFService.swift */; };
+		CEEEC69A2BDFFE5F004E6B30 /* MedicationPDFViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC6992BDFFE5F004E6B30 /* MedicationPDFViewModel.swift */; };
+		CEEEC69C2BE00343004E6B30 /* MedicationPDFRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC69B2BE00343004E6B30 /* MedicationPDFRepository.swift */; };
+		CEEEC69F2BE23160004E6B30 /* MedicationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC69E2BE23160004E6B30 /* MedicationDetailView.swift */; };
+		CEEEC6A12BE2D233004E6B30 /* FoodInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC6A02BE2D233004E6B30 /* FoodInteraction.swift */; };
+		CEEEC6A32BE2D76A004E6B30 /* FoodInteractionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEC6A22BE2D76A004E6B30 /* FoodInteractionsView.swift */; };
+		CEF547BE2BC00D2400CBFF5A /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF547BD2BC00D2400CBFF5A /* AppColor.swift */; };
+		CEF547C32BC0149D00CBFF5A /* MedicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF547C22BC0149D00CBFF5A /* MedicationService.swift */; };
+		CEF547C52BC01A9E00CBFF5A /* MedicationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF547C42BC01A9E00CBFF5A /* MedicationRepository.swift */; };
+		CEF547C72BC1C7CE00CBFF5A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF547C62BC1C7CE00CBFF5A /* User.swift */; };
+		CEF547C92BC1C98500CBFF5A /* BloodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF547C82BC1C98500CBFF5A /* BloodType.swift */; };
+		CEF547CB2BC1D70200CBFF5A /* UserFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF547CA2BC1D70200CBFF5A /* UserFormViewModel.swift */; };
+		CEF547CF2BC1D8C200CBFF5A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF547CE2BC1D8C200CBFF5A /* UserService.swift */; };
+		CEF547D12BC1DAF800CBFF5A /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF547D02BC1DAF800CBFF5A /* UserRepository.swift */; };
+		CEF547D32BC1FC6400CBFF5A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF547D22BC1FC6400CBFF5A /* DashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE05C7BE2BD2F68600699679 /* ThreeDotsLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDotsLoadingView.swift; sourceTree = "<group>"; };
+		CE05C7C12BD3054100699679 /* DDICheckerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDICheckerView.swift; sourceTree = "<group>"; };
+		CE05C7C32BD31EF600699679 /* DDICheckerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDICheckerViewModel.swift; sourceTree = "<group>"; };
+		CE0CE9912BDEA23D00DCDAEC /* DDICheckerMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDICheckerMenuView.swift; sourceTree = "<group>"; };
+		CE0CE9942BDEB13B00DCDAEC /* WavyLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavyLineView.swift; sourceTree = "<group>"; };
+		CE0CE9962BDEB5C000DCDAEC /* DrugFoodInteractionCheckerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugFoodInteractionCheckerView.swift; sourceTree = "<group>"; };
+		CE0CE9982BDEB84500DCDAEC /* InteractionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionDetailView.swift; sourceTree = "<group>"; };
+		CE54ED3E2BB61056002A9786 /* MedicationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewModel.swift; sourceTree = "<group>"; };
+		CE54ED402BB71157002A9786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE56A0212BC209E50052DB82 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		CE6D639D2BDE876200338246 /* DDICheckerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDICheckerService.swift; sourceTree = "<group>"; };
+		CE6D639F2BDE97D800338246 /* Interaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interaction.swift; sourceTree = "<group>"; };
+		CE6D63A12BDE9B5000338246 /* DDICheckerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDICheckerRepository.swift; sourceTree = "<group>"; };
+		CE7038192BD14E9800437D40 /* MedicationDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDashboardView.swift; sourceTree = "<group>"; };
+		CE70381B2BD171DB00437D40 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		CE70381E2BD178AC00437D40 /* HealthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCardView.swift; sourceTree = "<group>"; };
+		CE9F577F2BB353BC005AB2B0 /* Medivise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medivise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9F57822BB353BC005AB2B0 /* MediviseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediviseApp.swift; sourceTree = "<group>"; };
+		CE9F57842BB353BC005AB2B0 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		CE9F57862BB353BD005AB2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9F57892BB353BD005AB2B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE9F57902BB35CE0005AB2B0 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		CE9F57922BB362EC005AB2B0 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CE9F57952BB37366005AB2B0 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		CE9F579C2BB42ACB005AB2B0 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		CE9F579E2BB42B12005AB2B0 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		CE9F57A12BB46511005AB2B0 /* GeminiExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiExample.swift; sourceTree = "<group>"; };
+		CE9F57A52BB4670D005AB2B0 /* WideButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideButton.swift; sourceTree = "<group>"; };
+		CE9F57A82BB46B62005AB2B0 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		CE9F57AB2BB46D6F005AB2B0 /* MedicationFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationFormView.swift; sourceTree = "<group>"; };
+		CE9F57AF2BB4A4E2005AB2B0 /* ImageUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadView.swift; sourceTree = "<group>"; };
+		CE9F57B12BB4A4FF005AB2B0 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		CEAA402F2BC6C664003810FF /* MedicationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationListView.swift; sourceTree = "<group>"; };
+		CEAA40312BC7E7C6003810FF /* MedicationFileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationFileManagerService.swift; sourceTree = "<group>"; };
+		CEAA40332BC7E8CE003810FF /* MedicationFileManagerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationFileManagerRepository.swift; sourceTree = "<group>"; };
+		CEAA40362BC81AE0003810FF /* MedicationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationRowView.swift; sourceTree = "<group>"; };
+		CEAA40382BC8871D003810FF /* UserFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFormView.swift; sourceTree = "<group>"; };
+		CEEEC68E2BDFEF30004E6B30 /* WarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningView.swift; sourceTree = "<group>"; };
+		CEEEC6912BDFF709004E6B30 /* MedicationPDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationPDFView.swift; sourceTree = "<group>"; };
+		CEEEC6932BDFF8F7004E6B30 /* PDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
+		CEEEC6972BDFFCAB004E6B30 /* PDFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFService.swift; sourceTree = "<group>"; };
+		CEEEC6992BDFFE5F004E6B30 /* MedicationPDFViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationPDFViewModel.swift; sourceTree = "<group>"; };
+		CEEEC69B2BE00343004E6B30 /* MedicationPDFRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationPDFRepository.swift; sourceTree = "<group>"; };
+		CEEEC69E2BE23160004E6B30 /* MedicationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailView.swift; sourceTree = "<group>"; };
+		CEEEC6A02BE2D233004E6B30 /* FoodInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInteraction.swift; sourceTree = "<group>"; };
+		CEEEC6A22BE2D76A004E6B30 /* FoodInteractionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInteractionsView.swift; sourceTree = "<group>"; };
+		CEF547BD2BC00D2400CBFF5A /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		CEF547C22BC0149D00CBFF5A /* MedicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationService.swift; sourceTree = "<group>"; };
+		CEF547C42BC01A9E00CBFF5A /* MedicationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationRepository.swift; sourceTree = "<group>"; };
+		CEF547C62BC1C7CE00CBFF5A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CEF547C82BC1C98500CBFF5A /* BloodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodType.swift; sourceTree = "<group>"; };
+		CEF547CA2BC1D70200CBFF5A /* UserFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFormViewModel.swift; sourceTree = "<group>"; };
+		CEF547CE2BC1D8C200CBFF5A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		CEF547D02BC1DAF800CBFF5A /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		CEF547D22BC1FC6400CBFF5A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9F577C2BB353BC005AB2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9F579B2BB42A9A005AB2B0 /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE05C7BD2BD2F67D00699679 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CE05C7BE2BD2F68600699679 /* ThreeDotsLoadingView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		CE05C7C02BD3053100699679 /* InteractionsChecker */ = {
+			isa = PBXGroup;
+			children = (
+				CE05C7C12BD3054100699679 /* DDICheckerView.swift */,
+				CE0CE9912BDEA23D00DCDAEC /* DDICheckerMenuView.swift */,
+				CE0CE9962BDEB5C000DCDAEC /* DrugFoodInteractionCheckerView.swift */,
+				CE0CE9982BDEB84500DCDAEC /* InteractionDetailView.swift */,
+				CEEEC68E2BDFEF30004E6B30 /* WarningView.swift */,
+				CEEEC6A22BE2D76A004E6B30 /* FoodInteractionsView.swift */,
+			);
+			path = InteractionsChecker;
+			sourceTree = "<group>";
+		};
+		CE54ED3D2BB61049002A9786 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE54ED3E2BB61056002A9786 /* MedicationViewModel.swift */,
+				CEF547CA2BC1D70200CBFF5A /* UserFormViewModel.swift */,
+				CE05C7C32BD31EF600699679 /* DDICheckerViewModel.swift */,
+				CEEEC6992BDFFE5F004E6B30 /* MedicationPDFViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE7038162BD148C600437D40 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				CEF547D22BC1FC6400CBFF5A /* DashboardView.swift */,
+				CE7038192BD14E9800437D40 /* MedicationDashboardView.swift */,
+				CE70381B2BD171DB00437D40 /* SwiftUIView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		CE70381D2BD1789B00437D40 /* MyHealhtSection */ = {
+			isa = PBXGroup;
+			children = (
+				CE70381E2BD178AC00437D40 /* HealthCardView.swift */,
+			);
+			path = MyHealhtSection;
+			sourceTree = "<group>";
+		};
+		CE9F57762BB353BC005AB2B0 = {
+			isa = PBXGroup;
+			children = (
+				CE9F579C2BB42ACB005AB2B0 /* GenerativeAI-Info.plist */,
+				CE54ED402BB71157002A9786 /* Info.plist */,
+				CE9F57812BB353BC005AB2B0 /* Medivise */,
+				CE9F57802BB353BC005AB2B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9F57802BB353BC005AB2B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F577F2BB353BC005AB2B0 /* Medivise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9F57812BB353BC005AB2B0 /* Medivise */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F57A72BB46B4D005AB2B0 /* Models */,
+				CE9F57942BB37351005AB2B0 /* Views */,
+				CE54ED3D2BB61049002A9786 /* ViewModels */,
+				CEF547BF2BC0127700CBFF5A /* Repositories */,
+				CEF547C12BC0138300CBFF5A /* Services */,
+				CE9F57A02BB464F9005AB2B0 /* Gemini Integration */,
+				CE9F57822BB353BC005AB2B0 /* MediviseApp.swift */,
+				CEF547BD2BC00D2400CBFF5A /* AppColor.swift */,
+				CE9F57882BB353BD005AB2B0 /* Preview Content */,
+				CE9F57862BB353BD005AB2B0 /* Assets.xcassets */,
+			);
+			path = Medivise;
+			sourceTree = "<group>";
+		};
+		CE9F57882BB353BD005AB2B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F57892BB353BD005AB2B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE9F57942BB37351005AB2B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEEEC69D2BE230AF004E6B30 /* MedicationDetail */,
+				CEEEC6902BDFF6F9004E6B30 /* MedicationPDF */,
+				CE05C7C02BD3053100699679 /* InteractionsChecker */,
+				CE70381D2BD1789B00437D40 /* MyHealhtSection */,
+				CE7038162BD148C600437D40 /* Dashboard */,
+				CEAA40352BC81AC1003810FF /* MedicationList */,
+				CEF547BC2BC0006300CBFF5A /* Calendar */,
+				CE9F57AA2BB46D33005AB2B0 /* MedicineForm */,
+				CE9F57A42BB466FF005AB2B0 /* CustomElements */,
+				CE9F57842BB353BC005AB2B0 /* HomePage.swift */,
+				CE56A0212BC209E50052DB82 /* WelcomeScreenView.swift */,
+				CEAA40382BC8871D003810FF /* UserFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE9F57A02BB464F9005AB2B0 /* Gemini Integration */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F579E2BB42B12005AB2B0 /* APIKey.swift */,
+				CE9F57A12BB46511005AB2B0 /* GeminiExample.swift */,
+			);
+			path = "Gemini Integration";
+			sourceTree = "<group>";
+		};
+		CE9F57A42BB466FF005AB2B0 /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				CE05C7BD2BD2F67D00699679 /* Animations */,
+				CE9F57952BB37366005AB2B0 /* TextFieldModifier.swift */,
+				CE9F57A52BB4670D005AB2B0 /* WideButton.swift */,
+				CE0CE9942BDEB13B00DCDAEC /* WavyLineView.swift */,
+			);
+			path = CustomElements;
+			sourceTree = "<group>";
+		};
+		CE9F57A72BB46B4D005AB2B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F57A82BB46B62005AB2B0 /* Medication.swift */,
+				CEF547C62BC1C7CE00CBFF5A /* User.swift */,
+				CEF547C82BC1C98500CBFF5A /* BloodType.swift */,
+				CE6D639F2BDE97D800338246 /* Interaction.swift */,
+				CEEEC6A02BE2D233004E6B30 /* FoodInteraction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE9F57AA2BB46D33005AB2B0 /* MedicineForm */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F57AF2BB4A4E2005AB2B0 /* ImageUploadView.swift */,
+				CE9F57B12BB4A4FF005AB2B0 /* ImagePickerView.swift */,
+				CE9F57AB2BB46D6F005AB2B0 /* MedicationFormView.swift */,
+			);
+			path = MedicineForm;
+			sourceTree = "<group>";
+		};
+		CEAA40352BC81AC1003810FF /* MedicationList */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA402F2BC6C664003810FF /* MedicationListView.swift */,
+				CEAA40362BC81AE0003810FF /* MedicationRowView.swift */,
+			);
+			path = MedicationList;
+			sourceTree = "<group>";
+		};
+		CEEEC6902BDFF6F9004E6B30 /* MedicationPDF */ = {
+			isa = PBXGroup;
+			children = (
+				CEEEC6912BDFF709004E6B30 /* MedicationPDFView.swift */,
+				CEEEC6932BDFF8F7004E6B30 /* PDFViewer.swift */,
+			);
+			path = MedicationPDF;
+			sourceTree = "<group>";
+		};
+		CEEEC69D2BE230AF004E6B30 /* MedicationDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CEEEC69E2BE23160004E6B30 /* MedicationDetailView.swift */,
+			);
+			path = MedicationDetail;
+			sourceTree = "<group>";
+		};
+		CEF547BC2BC0006300CBFF5A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F57902BB35CE0005AB2B0 /* DayView.swift */,
+				CE9F57922BB362EC005AB2B0 /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		CEF547BF2BC0127700CBFF5A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				CEF547C42BC01A9E00CBFF5A /* MedicationRepository.swift */,
+				CEF547D02BC1DAF800CBFF5A /* UserRepository.swift */,
+				CEAA40332BC7E8CE003810FF /* MedicationFileManagerRepository.swift */,
+				CE6D63A12BDE9B5000338246 /* DDICheckerRepository.swift */,
+				CEEEC69B2BE00343004E6B30 /* MedicationPDFRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		CEF547C12BC0138300CBFF5A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CEF547C22BC0149D00CBFF5A /* MedicationService.swift */,
+				CEF547CE2BC1D8C200CBFF5A /* UserService.swift */,
+				CEAA40312BC7E7C6003810FF /* MedicationFileManagerService.swift */,
+				CE6D639D2BDE876200338246 /* DDICheckerService.swift */,
+				CEEEC6972BDFFCAB004E6B30 /* PDFService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9F577E2BB353BC005AB2B0 /* Medivise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9F578D2BB353BD005AB2B0 /* Build configuration list for PBXNativeTarget "Medivise" */;
+			buildPhases = (
+				CE9F577B2BB353BC005AB2B0 /* Sources */,
+				CE9F577C2BB353BC005AB2B0 /* Frameworks */,
+				CE9F577D2BB353BC005AB2B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medivise;
+			packageProductDependencies = (
+				CE9F579A2BB42A9A005AB2B0 /* GoogleGenerativeAI */,
+			);
+			productName = Medivise;
+			productReference = CE9F577F2BB353BC005AB2B0 /* Medivise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9F57772BB353BC005AB2B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CE9F577E2BB353BC005AB2B0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = CE9F577A2BB353BC005AB2B0 /* Build configuration list for PBXProject "Medivise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9F57762BB353BC005AB2B0;
+			packageReferences = (
+				CE9F57992BB42A9A005AB2B0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = CE9F57802BB353BC005AB2B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9F577E2BB353BC005AB2B0 /* Medivise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9F577D2BB353BC005AB2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9F578A2BB353BD005AB2B0 /* Preview Assets.xcassets in Resources */,
+				CE9F57872BB353BD005AB2B0 /* Assets.xcassets in Resources */,
+				CE9F579D2BB42ACB005AB2B0 /* GenerativeAI-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9F577B2BB353BC005AB2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE05C7C22BD3054100699679 /* DDICheckerView.swift in Sources */,
+				CE6D639E2BDE876200338246 /* DDICheckerService.swift in Sources */,
+				CE0CE9952BDEB13B00DCDAEC /* WavyLineView.swift in Sources */,
+				CE05C7BF2BD2F68600699679 /* ThreeDotsLoadingView.swift in Sources */,
+				CEF547C32BC0149D00CBFF5A /* MedicationService.swift in Sources */,
+				CE54ED3F2BB61056002A9786 /* MedicationViewModel.swift in Sources */,
+				CEEEC69A2BDFFE5F004E6B30 /* MedicationPDFViewModel.swift in Sources */,
+				CE9F57B22BB4A4FF005AB2B0 /* ImagePickerView.swift in Sources */,
+				CE9F57A62BB4670D005AB2B0 /* WideButton.swift in Sources */,
+				CEF547C92BC1C98500CBFF5A /* BloodType.swift in Sources */,
+				CEF547CF2BC1D8C200CBFF5A /* UserService.swift in Sources */,
+				CE0CE9992BDEB84500DCDAEC /* InteractionDetailView.swift in Sources */,
+				CEEEC68F2BDFEF30004E6B30 /* WarningView.swift in Sources */,
+				CEF547D32BC1FC6400CBFF5A /* DashboardView.swift in Sources */,
+				CEAA40342BC7E8CE003810FF /* MedicationFileManagerRepository.swift in Sources */,
+				CE9F57852BB353BC005AB2B0 /* HomePage.swift in Sources */,
+				CE9F57AC2BB46D6F005AB2B0 /* MedicationFormView.swift in Sources */,
+				CE05C7C42BD31EF600699679 /* DDICheckerViewModel.swift in Sources */,
+				CEAA40372BC81AE0003810FF /* MedicationRowView.swift in Sources */,
+				CE9F57A22BB46511005AB2B0 /* GeminiExample.swift in Sources */,
+				CE0CE9972BDEB5C000DCDAEC /* DrugFoodInteractionCheckerView.swift in Sources */,
+				CEF547CB2BC1D70200CBFF5A /* UserFormViewModel.swift in Sources */,
+				CE9F57932BB362EC005AB2B0 /* CalendarView.swift in Sources */,
+				CEEEC6A32BE2D76A004E6B30 /* FoodInteractionsView.swift in Sources */,
+				CEEEC6942BDFF8F7004E6B30 /* PDFViewer.swift in Sources */,
+				CE70381C2BD171DB00437D40 /* SwiftUIView.swift in Sources */,
+				CEF547D12BC1DAF800CBFF5A /* UserRepository.swift in Sources */,
+				CE9F57832BB353BC005AB2B0 /* MediviseApp.swift in Sources */,
+				CEEEC6982BDFFCAB004E6B30 /* PDFService.swift in Sources */,
+				CE56A0222BC209E50052DB82 /* WelcomeScreenView.swift in Sources */,
+				CEAA40302BC6C664003810FF /* MedicationListView.swift in Sources */,
+				CE6D63A22BDE9B5000338246 /* DDICheckerRepository.swift in Sources */,
+				CEAA40322BC7E7C6003810FF /* MedicationFileManagerService.swift in Sources */,
+				CEEEC69F2BE23160004E6B30 /* MedicationDetailView.swift in Sources */,
+				CE6D63A02BDE97D800338246 /* Interaction.swift in Sources */,
+				CEEEC6922BDFF709004E6B30 /* MedicationPDFView.swift in Sources */,
+				CE9F57912BB35CE0005AB2B0 /* DayView.swift in Sources */,
+				CE0CE9922BDEA23D00DCDAEC /* DDICheckerMenuView.swift in Sources */,
+				CE9F57B02BB4A4E2005AB2B0 /* ImageUploadView.swift in Sources */,
+				CE70381A2BD14E9800437D40 /* MedicationDashboardView.swift in Sources */,
+				CEEEC6A12BE2D233004E6B30 /* FoodInteraction.swift in Sources */,
+				CE70381F2BD178AC00437D40 /* HealthCardView.swift in Sources */,
+				CEF547BE2BC00D2400CBFF5A /* AppColor.swift in Sources */,
+				CE9F57A92BB46B62005AB2B0 /* Medication.swift in Sources */,
+				CEAA40392BC8871D003810FF /* UserFormView.swift in Sources */,
+				CEF547C72BC1C7CE00CBFF5A /* User.swift in Sources */,
+				CEEEC69C2BE00343004E6B30 /* MedicationPDFRepository.swift in Sources */,
+				CE9F579F2BB42B12005AB2B0 /* APIKey.swift in Sources */,
+				CE9F57962BB37366005AB2B0 /* TextFieldModifier.swift in Sources */,
+				CEF547C52BC01A9E00CBFF5A /* MedicationRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE9F578B2BB353BD005AB2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE9F578C2BB353BD005AB2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9F578E2BB353BD005AB2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medivise/Preview Content\"";
+				DEVELOPMENT_TEAM = SFGA85M995;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Medivise/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drada.Medivise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9F578F2BB353BD005AB2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medivise/Preview Content\"";
+				DEVELOPMENT_TEAM = SFGA85M995;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Medivise/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drada.Medivise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9F577A2BB353BC005AB2B0 /* Build configuration list for PBXProject "Medivise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9F578B2BB353BD005AB2B0 /* Debug */,
+				CE9F578C2BB353BD005AB2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9F578D2BB353BD005AB2B0 /* Build configuration list for PBXNativeTarget "Medivise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9F578E2BB353BD005AB2B0 /* Debug */,
+				CE9F578F2BB353BD005AB2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE9F57992BB42A9A005AB2B0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE9F579A2BB42A9A005AB2B0 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9F57992BB42A9A005AB2B0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE9F57772BB353BC005AB2B0 /* Project object */;
+}
