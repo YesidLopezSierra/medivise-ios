@@ -42,7 +42,7 @@ You can download Xcode from the Mac App Store or from the [Apple Developer websi
 Clone the repository to your local machine using Git:
 
 ```bash
-git clone [https://github.com/YesidLopezSierra/medivise-ios.git](https://github.com/YesidLopezSierra/medivise-ios)
+git clone https://github.com/YesidLopezSierra/medivise-ios.git
 ```
 
 ### Open in Xcode
