@@ -3,7 +3,7 @@
 Medivise is a mobile app designed to tackle the growing challenge of polypharmacy, particularly among the elderly and those with multiple health conditions. 
 
 ## Links
-- BE repository: [https://github.com/yesid-lopez/medivise](https://github.com/YesidLopezSierra/medivise)
+- BE repository: [https://github.com/YesidLopezSierra/medivise](https://github.com/YesidLopezSierra/medivise)
 - Swagger: http://34.29.156.157/docs
 - Video demo: https://youtu.be/BcAlyUk3xZ0
 
