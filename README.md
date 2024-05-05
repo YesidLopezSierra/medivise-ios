@@ -1,9 +1,11 @@
 # Medivise 🩺
 
-Medivise is designed to tackle the growing challenge of polypharmacy, particularly among the elderly and those with multiple health conditions. 
+Medivise is a mobile app designed to tackle the growing challenge of polypharmacy, particularly among the elderly and those with multiple health conditions. 
 
-## Important
-To locally run the iOS app and use the Gemini API, please add your API key in the file: https://github.com/saradrada/medivise-ios/blob/main/GenerativeAI-Info.plist
+## Links
+- BE repository: [https://github.com/yesid-lopez/medivise](https://github.com/YesidLopezSierra/medivise)
+- Swagger: http://34.29.156.157/docs
+- Video demo: https://youtu.be/BcAlyUk3xZ0
 
 ## Features
 
@@ -12,17 +14,41 @@ To locally run the iOS app and use the Gemini API, please add your API key in th
 - **Monitor Food Interactions**: Get detailed information on how certain foods may interact with your medications to maintain an optimal diet that supports your treatment.
 - **Automated Health Reports**: Generate detailed health reports in PDF format, including all your medication information. Share these with your doctor to enhance medical appointments.
 
-## How We Built It
-Medivise was developed for a hackathon using a blend of advanced technologies:
-- **Backend**: MongoDB hosted on Google Kubernetes Engine (GKE) for scalable, secure data management. Find the BE repository here: https://github.com/yesid-lopez/medivise
-- **Drug Information Retrieval**: Integration with the Gemini API and Zilliz's Vector DB, leveraging a Retrieval-Augmented Generation (RAG) model.
-- **Frontend**: Developed with Swift, focusing on an intuitive interface for easy navigation by older adults.
-- **API Services**: FastAPI for responsive, asynchronous API services connecting the mobile interface with the backend.
-
 ## Setting Up the Project with Gemini API
-To integrate the Gemini API in your iOS application, follow these steps:
+To integrate the Gemini API in the iOS project:
 
 ### 1. Set Up Your API Key
 - **Obtain an API Key**: Create an API key in Google AI Studio if you don't already have one.
 - **Secure Your API Key**: Store your API key securely in a `GenerativeAI-Info.plist` file and exclude it from version control.
-# medivise-ios
+
+
+## Important
+To locally run the iOS app and use the Gemini API, please add your API key in the file: https://github.com/saradrada/medivise-ios/blob/main/GenerativeAI-Info.plist
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+You need to have the following software installed on your machine:
+
+- Xcode
+
+You can download Xcode from the Mac App Store or from the [Apple Developer website](https://developer.apple.com/xcode/resources/).
+
+### Clone the repository
+
+Clone the repository to your local machine using Git:
+
+```bash
+git clone [https://github.com/username/project-name.git](https://github.com/YesidLopezSierra/medivise-ios)
+```
+
+### Open in Xcode
+Navigate to the project directory in Terminal.
+Double click on the Medivise.xcodeproj file or open it directly from Xcode.
+
+### Build and Run
+Once the project is opened in Xcode, select your desired device or simulator from the target device menu.
+Press the "Play" button or use the shortcut Cmd + R to build and run the project.
