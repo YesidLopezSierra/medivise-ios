@@ -23,7 +23,7 @@ To integrate the Gemini API in the iOS project:
 
 
 ## Important
-To locally run the iOS app and use the Gemini API, please add your API key in the file: https://github.com/saradrada/medivise-ios/blob/main/GenerativeAI-Info.plist
+To locally run the iOS app and use the Gemini API, please add your API key in the file: https://github.com/YesidLopezSierra/medivise-ios/blob/main/GenerativeAI-Info.plist
 
 ## Getting Started
 
@@ -42,7 +42,7 @@ You can download Xcode from the Mac App Store or from the [Apple Developer websi
 Clone the repository to your local machine using Git:
 
 ```bash
-git clone [https://github.com/username/project-name.git](https://github.com/YesidLopezSierra/medivise-ios)
+git clone [https://github.com/YesidLopezSierra/medivise-ios.git](https://github.com/YesidLopezSierra/medivise-ios)
 ```
 
 ### Open in Xcode
