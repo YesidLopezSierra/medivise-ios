@@ -18,7 +18,7 @@ Medivise is a mobile app designed to tackle the growing challenge of polypharmac
 To integrate the Gemini API in the iOS project:
 
 ### 1. Set Up Your API Key
-- **Obtain an API Key**: We've included the key as a text file named "APIKey.txt" in the Additional Information section of the Devpost form.
+- **Obtain an API Key**: We've included the key as a text file named `APIKey.txt` in the Additional Information section of the Devpost form.
 - **Secure Your API Key**: Store your API key securely in a `GenerativeAI-Info.plist` file and exclude it from version control.
 
 
